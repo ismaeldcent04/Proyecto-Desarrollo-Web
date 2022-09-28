@@ -1,0 +1,26 @@
+﻿.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .sidebarOption:hover {
+        background-color: var(--SocialApp-background);
+        border-radius: 30px;
+        color: var(--SocialApp-color);
+        transition: color 100ms ease-out;
+    }
+
+.icons {
+    padding: 1.3rem;
+}
+
+.sidebarOption h2 {
+    font-weight: 800px;
+    font-size: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.sidebarOption--active {
+    color: var(--SocialApp-color);
+}
