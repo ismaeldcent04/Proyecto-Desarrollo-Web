@@ -2,31 +2,36 @@
 import "../Sidebar.css";
 import SidebarOption from "./SidebarOption";
 import SchoolIcon from '@material-ui/icons/School';
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import EmailIcon from "@material-ui/icons/Email";
-import BookmarkIcon from "@material-ui/icons/Bookmark";
-import PersonIcon from "@material-ui/icons/Person";
-import MoreIcon from "@material-ui/icons/More";
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import ExploreOutlinedIcon from "@material-ui/icons/ExploreOutlined";
+import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
+import BookmarkBorderOutlinedIcon from "@material-ui/icons/BookmarkBorderOutlined";
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
+import MoreOutlinedIcon from '@material-ui/icons/MoreOutlined';
 import { Button } from "@material-ui/core";
 
 function Sidebar() {
+
+
     return (
         <div className="sidebar">
             {/*Icon*/}
             <SchoolIcon className="appLogo" />
             {/*SidebarOptions*/}
-            <SidebarOption active text="Home" Icon={HomeIcon} />
-            <SidebarOption text="Search" Icon={SearchIcon} />
-            <SidebarOption text="Messages" Icon={EmailIcon} />
-            <SidebarOption text="Bookmarks" Icon={BookmarkIcon} />
-            <SidebarOption text="Profile" Icon={PersonIcon} />
-            <SidebarOption text="More" Icon={MoreIcon} />
+            <SidebarOption active text="Home" href="/" Icon={HomeOutlinedIcon} />
+            <SidebarOption text="Explore" href="/explore" Icon={ExploreOutlinedIcon}/>
+            <SidebarOption text="Messages" Icon={EmailOutlinedIcon} />
+            <SidebarOption text="Bookmarks" Icon={BookmarkBorderOutlinedIcon} />
+            <SidebarOption text="Profile" href="/profile" Icon={PersonOutlineOutlinedIcon} />
+            <SidebarOption text="More" Icon={MoreOutlinedIcon} />
 
             {/*TweetButton*/}
             <Button variant="outlined" className="sidebarButton" fullWidth>
                 Tweet
             </Button>
+
+
+          
         </div>
     );
 }

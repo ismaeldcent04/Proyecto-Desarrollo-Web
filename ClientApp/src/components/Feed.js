@@ -23,8 +23,9 @@ function Feed() {
                 text="Yoo it's working"
             />
 
+
         </div>
     );
 }
-
+    
 export default Feed;

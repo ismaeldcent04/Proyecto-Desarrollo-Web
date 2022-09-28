@@ -4,23 +4,23 @@
     cursor: pointer;
 }
 
-    .sidebarOption:hover {
-        background-color: var(--SocialApp-background);
-        border-radius: 30px;
-        color: var(--SocialApp-color);
-        transition: color 100ms ease-out;
-    }
+.sidebarOption:hover {
+  background-color: var(--SocialApp-background);
+  border-radius: 30px;
+  color: var(--SocialApp-color);
+  transition: color 100ms ease-out;
+}
 
 .icons {
     padding: 1.3rem;
 }
 
 .sidebarOption h2 {
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 1.3rem;
     margin-right: 1.3rem;
 }
 
-.sidebarOption--active {
-    color: var(--SocialApp-color);
+.sidebarOption--active{
+    color: var(--SocialApp-color)!important;
 }
