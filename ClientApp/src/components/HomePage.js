@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import "../Page.css";
-import Feed from "./Feed";
+import HomePageFeed from "./HomePageFeed";
 import Widgets from "./Widgets";
 
 function HomePage() {
@@ -10,7 +10,7 @@ function HomePage() {
             {/* Sidebar */}
             <Sidebar />
             {/*Feed */}
-            <Feed />
+            <HomePageFeed />
             {/*Widgets */}
             <Widgets />
         </div>

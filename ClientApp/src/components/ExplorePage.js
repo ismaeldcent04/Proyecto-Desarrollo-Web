@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import Sidebar from "./Sidebar"
-import Feed from "./Feed"
+import HomePageFeed from "./HomePageFeed"
 import "../Page.css";
 import Widgets from "./Widgets"
 
@@ -8,7 +8,7 @@ function ExplorePage(){
     return (
         <div className="app">
             <Sidebar />
-            <Feed />
+            <HomePageFeed />
             <Widgets/>
         </div>
         )

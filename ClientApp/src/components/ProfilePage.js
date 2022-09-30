@@ -1,14 +1,15 @@
 ﻿import React from "react";
 import Sidebar from "./Sidebar"
-import Feed from "./Feed"
+import ProfilePageFeed from "./ProfilePageFeed"
 import Widgets from "./Widgets"
+
 
 function ProfilePage() {
 
     return (
         <div className="app">
             <Sidebar />
-            <Feed />
+            <ProfilePageFeed />
             <Widgets/>
         </div>
     )
