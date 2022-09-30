@@ -34,3 +34,32 @@ a:link,a:visited{
     color:black;
     text-decoration:none;
 }
+
+.sidebar_profileButton {
+    border: none !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 60px !important;
+    margin-top: 300px !important;
+    width:100% !important;
+}
+
+
+
+.sidebar_profileText h5 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    color:gray !important;
+    font-weight: 800!important; 
+}
+
+
+.more_icon {
+    margin-left: 30px !important;
+}
+.sidebar_avatarIcon{
+   height:50px !important;
+   width:50px !important;
+   margin:0px !important;
+}

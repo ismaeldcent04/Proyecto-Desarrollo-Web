@@ -49,7 +49,7 @@ function TweetBox() {
                     placeholder="Optional: Enter image URL"
                     type="text"
                 />
-                <Button type="submit" className="tweetBox__button">Tweet</Button>
+                <Button  type="submit" className="tweetBox__button">Tweet</Button>
             </form>
         </div>
     );
