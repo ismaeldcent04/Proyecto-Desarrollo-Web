@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import "../Feed.css";
+import "../CSS/Feed.css";
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import CalendarTodayOutlinedIcon from '@material-ui/icons/CalendarTodayOutlined';
 import { Avatar, Button, AppBar, Tabs, Tab,TabPan } from "@material-ui/core";

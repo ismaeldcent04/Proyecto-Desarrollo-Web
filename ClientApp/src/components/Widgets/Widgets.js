@@ -1,12 +1,10 @@
-﻿import React, { useState} from "react";
-import "../Widgets.css";
+﻿import React from "react";
+import "../CSS/Widgets.css";
 import SearchIcon from '@material-ui/icons/Search';
-import { TwitterTweetEmbed, TwitterTimelineEmbed,TwitterShareButton } from "react-twitter-embed"
+import { TwitterTweetEmbed, TwitterTimelineEmbed } from "react-twitter-embed"
 
 
 function Widgets() {
-
-    const [posts, setposts] = useState([]);
 
     return (
         <div className="widget">

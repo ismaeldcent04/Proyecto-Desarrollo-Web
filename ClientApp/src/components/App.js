@@ -1,7 +1,7 @@
 ﻿import React from "react"
-import HomePage from "./HomePage"
-import ExplorePage from "./ExplorePage"
-import ProfilePage from "./ProfilePage"
+import HomePage from "./Pages/HomePage"
+import ExplorePage from "./Pages/ExplorePage"
+import ProfilePage from "./Pages/ProfilePage"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {

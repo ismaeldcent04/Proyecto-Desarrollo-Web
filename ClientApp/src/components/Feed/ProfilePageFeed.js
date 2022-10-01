@@ -2,7 +2,7 @@
 import Post from "./Post"
 import { posts } from "./TweetBox"
 import ProfileDescription from "./ProfileDescription"
-import "../Feed.css"
+import "../CSS/Feed.css"
 
 
 
@@ -19,15 +19,18 @@ function ProfilePageFeed() {
             following="50"
 
         />
-        <Post
-            key={posts.id}
-            avatar="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbiMjUoOxJCAMB9poSO2wLg34m7OxmyaT-A&usqp=CAU"
-            displayName="Ismael Dicent"
-            username="ismaeldcent04"
-            verified={true}
-            image={posts.imageURL}
-            text={posts.inputText}
-        />
+        {posts.map(post => {
+            return (
+                <Post
+                    key={post.id}
+                    avatar="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbiMjUoOxJCAMB9poSO2wLg34m7OxmyaT-A&usqp=CAU"
+                    displayName="Ismael Dicent"
+                    username="ismaeldcent04"
+                    verified={true}
+                    image={post.imageURL}
+                    text={post.inputText}
+                />)
+        })}
         </div>
      )
          

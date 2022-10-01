@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import "../Sidebar.css";
+import "../CSS/Sidebar.css";
 import SidebarOption from "./SidebarOption";
 import TwitterIcon from '@material-ui/icons/Twitter';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';

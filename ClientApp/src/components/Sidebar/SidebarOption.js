@@ -1,5 +1,5 @@
 ﻿import React from "react";
-import "../sidebarOption.css";
+import "../CSS/sidebarOption.css";
 import { Avatar } from "@material-ui/core";
 
 function SidebarOption({ active, text, Icon, avatar,href }) {

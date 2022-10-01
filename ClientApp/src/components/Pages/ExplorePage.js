@@ -1,14 +1,14 @@
 ﻿import React from "react";
-import Sidebar from "./Sidebar"
-import HomePageFeed from "./HomePageFeed"
-import "../Page.css";
-import Widgets from "./Widgets"
+import Sidebar from "../Sidebar/Sidebar"
+import ExplorePageFeed from "../Feed/ExplorePageFeed"
+import "../CSS/Page.css";
+import Widgets from "../Widgets/Widgets"
 
 function ExplorePage(){
     return (
         <div className="app">
             <Sidebar />
-            <HomePageFeed />
+            <ExplorePageFeed />
             <Widgets/>
         </div>
         )

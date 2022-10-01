@@ -1,8 +1,8 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import "../Page.css";
-import HomePageFeed from "./HomePageFeed";
-import Widgets from "./Widgets";
+import Sidebar from "../Sidebar/Sidebar";
+import "../CSS/Page.css";
+import HomePageFeed from "../Feed/HomePageFeed";
+import Widgets from "../Widgets/Widgets";
 
 function HomePage() {
     return (

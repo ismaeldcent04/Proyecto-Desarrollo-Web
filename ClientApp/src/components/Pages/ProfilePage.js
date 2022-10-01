@@ -1,7 +1,7 @@
 ﻿import React from "react";
-import Sidebar from "./Sidebar"
-import ProfilePageFeed from "./ProfilePageFeed"
-import Widgets from "./Widgets"
+import Sidebar from "../Sidebar/Sidebar";
+import ProfilePageFeed from "../Feed/ProfilePageFeed"
+import Widgets from "../Widgets/Widgets"
 
 
 function ProfilePage() {

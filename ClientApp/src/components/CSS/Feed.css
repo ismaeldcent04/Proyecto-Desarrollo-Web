@@ -53,7 +53,7 @@
 .portrait{
     background-color:lightgray;
     height:200px;
-    width:100%;
+    width:95%;
 }
 
 .profile_detailDate{
@@ -136,4 +136,86 @@
     width:200px !important;
 }
 
+.search_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--SocialApp-border-color);
+    width:85%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.search_input input{
+    background-color:var(--SocialApp-border-color);
+    border: none;
+}
 
+.settings_icon{
+    margin-left: 340px !important;
+    width:20px !important;
+    height:20px !important;
+}
+.news_image{
+    position:relative;
+}
+
+.news_image img{
+    position:relative;
+    width:600px;
+}
+
+.news_image h2 {
+    top:300px;
+    color: white;
+    position:absolute;
+    font-weight: 900;
+    margin-left: 10px;
+    width:600px;
+}
+
+.news_image h5 {
+    top:280px; 
+    margin-left:10px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.trends_bars h3{
+    margin-left:10px;
+    font-weight:900;
+}
+.trend_bar {
+    display: block !important;
+    text-align: left !important;
+    width: 100%;
+}
+
+.trend_bar p{
+    color:gray !important;
+    font-size:10px !important;
+    font-family: Arial;
+    width:200px;
+}
+
+.trendmore_icon {
+    margin-left:300px !important;
+    position: sticky !important;
+}
+
+.trendBar__first{
+    display:flex;
+}
+.popularvideos_header{
+    display: flex;  
+}
+
+.whasthot_icon{
+    margin-right:20px;
+    margin-left:10px;
+    color:var(--SocialApp-color);
+}
+.popularvideos_header h3{
+    font-weight:900;
+}

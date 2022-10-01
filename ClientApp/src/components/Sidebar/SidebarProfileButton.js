@@ -1,5 +1,5 @@
 ﻿import React from "react"
-import "../Sidebar.css"
+import "../CSS/Sidebar.css"
 import { Button, Avatar } from "@material-ui/core";
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 
