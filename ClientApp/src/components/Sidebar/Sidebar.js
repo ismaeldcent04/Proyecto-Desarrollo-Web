@@ -11,7 +11,7 @@ import MoreOutlinedIcon from '@material-ui/icons/MoreOutlined';
 import { Button} from "@material-ui/core";
 import SidebarProfileButton from "./SidebarProfileButton";
 
-function Sidebar({avatar,userName,displayName}) {
+function Sidebar({ avatar, nombreUsuario, displayName }) {
 
 
     return (
@@ -19,7 +19,7 @@ function Sidebar({avatar,userName,displayName}) {
             {/*Icon*/}
             <TwitterIcon className="appLogo" />
             {/*SidebarOptions*/}
-            <SidebarOption active text="Home" href="/" Icon={HomeOutlinedIcon} />
+            <SidebarOption active text="Home" href="/home" Icon={HomeOutlinedIcon} />
             <SidebarOption text="Explore" href="/explore" Icon={ExploreOutlinedIcon}/>
             <SidebarOption text="Messages" Icon={EmailOutlinedIcon} />
             <SidebarOption text="Bookmarks" Icon={BookmarkBorderOutlinedIcon} />
@@ -30,8 +30,8 @@ function Sidebar({avatar,userName,displayName}) {
             <Button variant="outlined" className="sidebarButton" fullWidth>
                 Tweet
             </Button>
-            {/*Profile_Twitterbutton*/ }
-            <SidebarProfileButton/>           
+            {/*Profile_Twitterbutton*/}
+            <SidebarProfileButton nombreUsuario={sessionStorage.getItem("nombreUsuario")} nombreCompleta={sessionStorage.getItem("nombreCompleto")} />           
         </div>
     );
 }
