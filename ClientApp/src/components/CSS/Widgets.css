@@ -1,6 +1,10 @@
-﻿.widget{
+﻿.widget {
     flex: 0.4;
-    margin-left:20px;   
+    margin-left: 10px;
+    position: fixed;
+    top: 10px;
+    right: 332px;
+
 }
 
 

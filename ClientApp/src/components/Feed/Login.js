@@ -27,7 +27,7 @@ const Login = () => {
         .then(res => {
             console.log(res);
             setNavigate(true);
-            sessionStorage.setItem('jwt', res.data.jwt);
+            localStorage.setItem('jwt', res.data.jwt);
             sessionStorage.setItem('nombreUsuario', res.data.oUsuario.nombreUsuario);
             sessionStorage.setItem('nombreCompleto', res.data.oUsuario.nombreCompleto);
         })

@@ -1,11 +1,22 @@
 ﻿.sidebar {
-    flex:0.3;
+    flex: 0.3;
     border-right: 1px solid var(--SocialApp-border-color);
-    margin-top: 20px;
+    padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    width:250px!important;
-
+    width: 275px !important;
+    position: fixed;
+    top: 0px;
+    left: 332px;
+    bottom: 10px;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 30px;
+    width: 100vw;
+    background: yellow;
 }
 
 .appLogo {
@@ -16,15 +27,26 @@
 }
 
 .sidebarButton {
-    background-color: var(--SocialApp-color) !important;
-    border: none !important;
+    background-color: #00acee !important;
     color: white !important;
     font-weight: 900 !important;
     text-transform: inherit !important;
-    border-radius: 30px !important; 
+    border-radius: 30px !important;
     height: 50px !important;
     margin-top: 20px !important;
     margin-left: auto !important;
+}
+
+.sidebar_profileButton {
+    border: none !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 60px !important;
+    margin-top: 425px !important;
+    margin-right: 40px !important;
+    width: 300px  !important;
+    max-width: max-content;
+    position: static !important;
 }
 
 a{
@@ -35,31 +57,34 @@ a:link,a:visited{
     text-decoration:none;
 }
 
-.sidebar_profileButton {
-    border: none !important;
-    font-weight: 800 !important;
-    text-transform: inherit !important;
-    border-radius: 30px !important;
-    height: 60px !important;
-    margin-top: 300px !important;
-    width:100% !important;
+
+.marginB {
+    margin-bottom: 20px;
+    width: 65%;
 }
 
+.options {
+    margin-inline: 10px;
+    display: grid;
+    gap: 15px;
+}
 
 
 .sidebar_profileText h5 {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    color:gray !important;
-    font-weight: 800!important; 
+    color: gray !important;
+    font-weight: 800 !important;
 }
 
 
 .more_icon {
-    margin-left: 30px !important;
+    margin-left: 50px !important;
+    width: fit-content;
 }
-.sidebar_avatarIcon{
-   height:50px !important;
-   width:50px !important;
-   margin:0px !important;
+.sidebar_avatarIcon {
+    height: 50px !important;
+    width: 50px !important;
+    margin: 0px !important;
+    position: static !important;
 }

@@ -10,6 +10,7 @@ import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined'
 import MoreOutlinedIcon from '@material-ui/icons/MoreOutlined';
 import { Button} from "@material-ui/core";
 import SidebarProfileButton from "./SidebarProfileButton";
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
 function Sidebar({ avatar, nombreUsuario, displayName }) {
 
@@ -20,11 +21,12 @@ function Sidebar({ avatar, nombreUsuario, displayName }) {
             <TwitterIcon className="appLogo" />
             {/*SidebarOptions*/}
             <SidebarOption active text="Home" href="/home" Icon={HomeOutlinedIcon} />
-            <SidebarOption text="Explore" href="/explore" Icon={ExploreOutlinedIcon}/>
-            <SidebarOption text="Messages" Icon={EmailOutlinedIcon} />
-            <SidebarOption text="Bookmarks" Icon={BookmarkBorderOutlinedIcon} />
+            <SidebarOption text="Explore" href="/explore" Icon={ExploreOutlinedIcon} />
+            <SidebarOption text="Messages" href="#" Icon={EmailOutlinedIcon} />
+            <SidebarOption text="Bookmarks" href="#" Icon={BookmarkBorderOutlinedIcon} />
             <SidebarOption text="Profile" href="/profile" Icon={PersonOutlineOutlinedIcon} />
-            <SidebarOption text="More" Icon={MoreOutlinedIcon} />
+            <SidebarOption text="More" href="#" Icon={MoreOutlinedIcon} />
+            <SidebarOption text="Sign out" href="/" onClick={sessionStorage.removeItem("")} Icon={ExitToAppIcon} />
 
             {/*TweetButton*/}
             <Button variant="outlined" className="sidebarButton" fullWidth>

@@ -8,11 +8,11 @@ import axios from 'axios';
 function HomePage() {
     const config = {
         headers: {
-            Authorization: 'Bearer ' + sessionStorage.getItem('jwt')
+            'Authorization': 'Bearer ' + localStorage.getItem('jwt')
         }
     }
-    const obtenerUsuario = async () => {
-        axios.get('http://samuelch-001-site1.btempurl.com/api/Usuario/ObtenerUsuario', )
+    useEffect(() => {
+       /* axios.get('http://samuelch-001-site1.btempurl.com/api/Autenticacion/ObtenerUsuario', config)
             .then(
                 res => {
                     console.log(res);
@@ -21,10 +21,7 @@ function HomePage() {
                 err => {
                     console.log(err)
                 }
-            )
-    }
-    useEffect(() => {
-        obtenerUsuario();
+            )*/
     }, []);
    
     return (

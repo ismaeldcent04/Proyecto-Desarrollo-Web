@@ -9,7 +9,7 @@ const Registrar = ({mostrarModal,setMostrarModal}) => {
     const [NombreUsuario, setNombreUsuario] = useState([]);
     const [NombreCompleto, setNombreCompleto] = useState([]);
     const [EmailAddress, setCorreo] = useState([]);
-    const [Contraseña, setContraseña] = useState([])
+    const [Contraseña, setContraseña] = useState([]);
 
     const registrarUsuario = async (e) => {
         e.preventDefault()
