@@ -1,6 +1,6 @@
 ﻿import React from "react"
 import Post from "./Post"
-import { posts } from "./TweetBox"
+import { posts } from "./HomePageFeed"
 import ProfileDescription from "./ProfileDescription"
 import "../CSS/Feed.css"
 
