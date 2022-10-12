@@ -26,7 +26,7 @@ function Sidebar({ avatar, nombreUsuario, displayName }) {
             <SidebarOption text="Bookmarks" href="#" Icon={BookmarkBorderOutlinedIcon} />
             <SidebarOption text="Profile" href="/profile" Icon={PersonOutlineOutlinedIcon} />
             <SidebarOption text="More" href="#" Icon={MoreOutlinedIcon} />
-            <SidebarOption text="Sign out" href="/" onClick={sessionStorage.removeItem("")} Icon={ExitToAppIcon} />
+            <SidebarOption text="Sign out" href="/" onClick={() =>  sessionStorage.removeItem("")} Icon={ExitToAppIcon} />
 
             {/*TweetButton*/}
             <Button variant="outlined" className="sidebarButton" fullWidth>
